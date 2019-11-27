@@ -61,9 +61,7 @@ plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-
 # general
-alias ca="cd ~/Code/ContaAzul"
 alias code="cd ~/Code"
 # git
 alias gs="git status"
