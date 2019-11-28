@@ -60,23 +60,5 @@ plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# Aliases
-# general
-alias code="cd ~/Code"
-alias l='ls -lah'
-alias ll='ls -lh'
-alias srcz = 'source ~/.zshrc'
-# git
-alias gs="git status"
-alias gc="git commit -m"
-alias ga="git add"
-alias gp="git push origin"
-alias gl="git log"
-alias gpl="git pull"
-alias gcheck="git checkout"
-# kubernets
-alias k="kubectl"
-alias kgp="kubectl get pods"
-
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
