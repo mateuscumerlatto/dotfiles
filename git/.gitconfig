@@ -1,0 +1,7 @@
+[user]
+
+    name = mateuscumerlatto
+    email = mateuscumerlatto@gmail.com
+
+[commit]
+    gpgsign = true
