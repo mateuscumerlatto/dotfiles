@@ -1,4 +1,10 @@
 *~
-.vscode/
-.idea
+.classpath
 .DS_Store
+.idea/
+.mypy_cache
+.project
+.settings
+.vscode/
+.venv
+__pycache__/
