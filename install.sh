@@ -12,6 +12,9 @@ brew cask install google-chrome
 echo "VS Code"
 brew cask install visual-studio-code
 
+echo "Github CLI"
+brew install github/gh/gh
+
 echo "Git"
 git config --global core.excludesfile ~/.gitignore_global
 
