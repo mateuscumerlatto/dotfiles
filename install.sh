@@ -21,3 +21,6 @@ git config --global core.excludesfile ~/.gitignore_global
 
 echo "zsh-autosuggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+echo "creating Code folder"
+mkdir ~/Code
