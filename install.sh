@@ -2,6 +2,7 @@ echo "Symlinks:"
 
 ln -s $(pwd)/git/.gitconfig ~/.gitconfig
 ln -s $(pwd)/git/.gitignore_global ~/.gitignore_global
+ln -s $(pwd)/editorconfig/.editorconfig ~/.editorconfig
 
 echo "Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
