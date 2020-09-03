@@ -20,9 +20,12 @@ echo "iTerm"
 brew cask install iterm2
 
 echo "Github CLI"
-brew install github/gh/gh
+brew cask install github/gh/gh
 
-echo "Configs"
+echo "gnupg"
+brew cask install gnupg
+
+echo "Settings"
 
 echo "Git config"
 git config --global core.excludesfile ~/.gitignore_global
@@ -32,5 +35,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-echo "creating Code folder"
+echo "creating folders"
 mkdir ~/Code
+
+mkdir ~/.ssh
+
+mkdir ~/.ssh/gpg-keys/
