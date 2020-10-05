@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mateuscumerlatto/.oh-my-zsh"
+export ZSH="/Users/mateus.cumerlatto/.oh-my-zsh"
 
 # Set name of the theme to load 
 ZSH_THEME="robbyrussell"
@@ -7,6 +7,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+ZSH_DISABLE_COMPFIX=true
 
 # global alias
 alias code="cd ~/Code"
@@ -26,3 +28,5 @@ alias gcheck="git checkout"
 # kubernets
 alias k="kubectl"
 alias kgp="kubectl get pods"
+
+source $ZSH/oh-my-zsh.sh
