@@ -16,6 +16,11 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 echo "> zsh-autosuggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+echo "> pyenv"
+curl https://pyenv.run | bash
+exec $SHELL
+
 source ~/.zshrc
 
 echo "> Zsh default shell"
