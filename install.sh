@@ -4,6 +4,7 @@ ln -s $(pwd)/git/.gitconfig ~/.gitconfig
 ln -s $(pwd)/git/.gitignore_global ~/.gitignore_global
 ln -s $(pwd)/editorconfig/.editorconfig ~/.editorconfig
 ln -s $(pwd)/zsh/.zshrc ~/.zshrc
+ln -s $(pwd)/zsh/.profile ~/.profile
 
 
 echo ">>> Settings:"
